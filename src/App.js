@@ -1,4 +1,3 @@
-import './App.css';
 import React ,{useEffect, useState} from 'react'
 import Home from './components/Main/Home.js';
 import Contectus from './components/Main/Contectus.js'
