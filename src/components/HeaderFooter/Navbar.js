@@ -21,9 +21,9 @@ function Navbar() {
                 <NavLink className="nav-link" to='/shoping/portfolio'>Product</NavLink>
               </li>                   
               
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link"  to='/shoping/contact-us'>Login</NavLink>
-              </li>
+              </li> */}
               {/* <li className="nav-item">
                 <NavLink className="nav-link"  to='/contact-us'>Logout</NavLink>
               </li> */}
@@ -31,7 +31,8 @@ function Navbar() {
                 <NavLink className="nav-link"  to='/contact-us'>Signup</NavLink>
               </li> */}
               <li className="nav-item">
-                <NavLink className="nav-link"  to='/shoping/cart'><i className="fa-solid fa-cart-shopping"></i><span class="badge badge-pill text-danger">9</span></NavLink>
+                {/* <NavLink className="nav-link"  to='/shoping/cart'><i className="fa-solid fa-cart-shopping"></i><span class="badge badge-pill text-danger">9</span></NavLink> */}
+                <NavLink className="nav-link"  to='/shoping/cart'><i className="fa-solid fa-cart-shopping"></i></NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link"  to='/shoping/about'>About me</NavLink>

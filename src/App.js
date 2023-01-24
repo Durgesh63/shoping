@@ -1,6 +1,6 @@
 import React ,{useEffect, useState} from 'react'
 import Home from './components/Main/Home.js';
-import Contectus from './components/Main/Contectus.js'
+// import Contectus from './components/Main/Contectus.js'
 
 import {Route, Routes} from "react-router-dom";
 import MainElement from './components/Main/MainElement';
@@ -58,7 +58,7 @@ function App() {
           <Route index element={<MainPage/>} />
           <Route path='/shoping/about' element={<Home/>} />
           <Route path='/shoping/portfolio' element = {<ApiProduct value={value} postive={postive} negative={negative} loading={loading} />} />
-          <Route path='/shoping/contact-us' element = {<Contectus/>} />
+          {/* <Route path='/shoping/contact-us' element = {<Contectus/>} /> */}
           <Route path='/shoping/cart' element = {<Cart value={value} postive={postive} negative={negative}/>} />
           <Route path='*' element = {<Error/>} />
         </Route>

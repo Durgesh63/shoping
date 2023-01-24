@@ -7,6 +7,8 @@ function HomePage() {
 
     const linkedin = "https://www.linkedin.com/in/durgeshmaurya/";
     const github = "https://github.com/Durgesh63";
+
+    const resume = 'https://docs.google.com/document/d/e/2PACX-1vS0tA-EBDisEIufaQarS9f8zz5Qa-7rih649diEZWuVp81osjxPwRacfnoCsK3ECv2fIySx-PauCL51/pub'
   return (
     <>
       <header className="header">
@@ -16,7 +18,7 @@ function HomePage() {
             <h6 className="title">Durgesh Maurya</h6>
             <p>ReactJs & Python Devloper</p>
             <div className="buttons pt-3">
-              <a href='/' className="btn btn-primary rounded">DOWNLOAD CV</a>
+              <a href={resume} target="_blank" rel="noreferrer" className="btn btn-primary rounded">DOWNLOAD CV</a>
             </div>      
             <div className="socials mt-4">
                 <a className="social-item" target="_blank" rel="noreferrer" style={{color:"#0A66C2",}}  href={linkedin}><i className="fa-brands fa-linkedin" /></a>
@@ -56,7 +58,7 @@ function HomePage() {
               <p className="subtitle">ReactJs & Python Devloper</p>
               <p>I studied computer science and engineering for my B.Tech. at VBS Purvanchal University. Python and JavaScript are my strong suits, and I'm also comfortable with ReactJs.</p>
               <p>I have experience working directly on the development of the React and Python projects.</p>
-              <button className="btn btn-primary rounded mt-3">DOWNLOAD CV</button>                   
+              <a href={resume} target="_blank" rel="noreferrer" className="btn btn-primary rounded mt-3">DOWNLOAD CV</a>                   
             </div>
           </div>
         </div>
