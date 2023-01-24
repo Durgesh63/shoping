@@ -75,8 +75,8 @@ function Portfolio() {
                 <div className="overlay">
                   <div className="overlay-infos">
                     <h5>ToDoList</h5>
-                    <a href="https://durgesh63.github.io/portfolio/" target="_blank" rel="noreferrer" ><i className="fa-solid fa-magnifying-glass-location" /></a>
-                    <a href="https://github.com/Durgesh63/portfolio" target="_blank" rel="noreferrer" ><i className="fa-solid fa-link" /></a>
+                    <a href="https://durgesh63.github.io/todo-list/" target="_blank" rel="noreferrer" ><i className="fa-solid fa-magnifying-glass-location" /></a>
+                    <a href="https://github.com/Durgesh63/todo-list" target="_blank" rel="noreferrer" ><i className="fa-solid fa-link" /></a>
                   </div>  
                 </div>
               </div>
